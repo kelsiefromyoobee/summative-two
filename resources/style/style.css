@@ -1,0 +1,9 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-wrapper img{
+    max-width: 250px;
+    display: block;
+}
