@@ -1,9 +1,42 @@
 header{
+    padding-right: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .img-wrapper img{
-    max-width: 250px;
-    display: block;
+    max-width: 250px;    
+}
+
+#landingpage{
+    position: relative;
+}
+
+.landing img{
+    width: 100%;
+    height: 100%;
+    
+}
+.blue-box{
+    background-color: #11498A;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+}
+.cta-btns{
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
+
+}
+.btns{
+    background-color: #F18721;
+    color: white;
+    padding: 20px;
+    min-width: 200px;
+   
 }
