@@ -9,12 +9,37 @@ p{
     font-style: italic;
     
 }
+label{
+    font-family: 'Mulish' , sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+input{
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #F18721;
+}
+
+option{
+    font-family: 'Mulish' , sans-serif;
+    
+ 
+}
+select{
+    border: 2px solid #F18721;
+    padding: 10px;
+    cursor: pointer;
+    
+}
 
 header{
     padding-right: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'mulish' , sans-serif;
 }
 .img-wrapper img{
     max-width: 250px;    
@@ -46,4 +71,41 @@ header{
     bottom: 0;
     left: 10%;
     right: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #11498A;
+    font-weight: 700;
+}
+.flex-input{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#search-btn{
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #F18721;
+    /* display: none; */
+    color: white;
+    border: none;
+   
+}
+
+/* cards */
+.hotel-card img{
+max-height: 65vh;
+max-width:85vw
+}
+.hotel-card{
+max-height: 65vh;
+max-width:85vw;
+}
+.info-area{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
