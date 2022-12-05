@@ -3,6 +3,10 @@ h1{
     font-size: 24px;
     font-weight: 700;
 }
+h2{
+    font-family: 'mulish' , sans-serif;
+    font-size: 20px;
+}
 p{
     font-family: 'Mulish' , sans-serif;
     font-size: 16px;
@@ -97,15 +101,19 @@ header{
 
 /* cards */
 .hotel-card img{
-max-height: 65vh;
-max-width:85vw
+width: 45%;
 }
 .hotel-card{
-max-height: 65vh;
-max-width:85vw;
+height: 45%;
+text-align: center;
 }
 .info-area{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width:45%;
+}
+.price{
+   display: flex;
+   max-width: 75%;
 }
