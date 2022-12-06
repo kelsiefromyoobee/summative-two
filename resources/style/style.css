@@ -100,20 +100,12 @@ header{
 }
 
 /* cards */
-.hotel-card img{
-width: 45%;
+.card{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: red;
 }
-.hotel-card{
-height: 45%;
-text-align: center;
-}
-.info-area{
+.cards{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width:45%;
-}
-.price{
-   display: flex;
-   max-width: 75%;
 }
