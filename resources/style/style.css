@@ -1,33 +1,35 @@
 h1{
-    font-family: 'Mulish' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
 h2{
-    font-family: 'mulish' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     font-size: 20px;
+    font-weight: 600;
 }
 p{
-    font-family: 'Mulish' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 600;
     
 }
 label{
-    font-family: 'Mulish' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 input{
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
     cursor: pointer;
     border: 2px solid #F18721;
 }
 
 option{
-    font-family: 'Mulish' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     
  
 }
@@ -43,7 +45,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'mulish' , sans-serif;
+    font-family: 'Montserrat' , sans-serif;
 }
 .img-wrapper img{
     max-width: 250px;    
@@ -101,11 +103,25 @@ header{
 
 /* cards */
 .card{
-    width: 300px;
-    height: 400px;
-    margin: 20px;
-    background-color: red;
+    /* display: flex; */
+    max-width: 45vw;
 }
-.cards{
+.disabled{
+    /* display:none; */
+}
+.hotel-img img{
+max-height: 45vh;
+width: 100%;
+}
+.hotel-img{
+
+}
+.info-wrapper{
     display: flex;
+    justify-content: space-between;
+}
+.guests-price{
+    display: flex;
+    gap: 20px;
+    align-items: center ;
 }
