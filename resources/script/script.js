@@ -41,7 +41,6 @@ else
 }
 
 //TO DO
-// add HOVER Modal
 // add on click modal
 // food database
 

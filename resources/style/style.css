@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 h1{
     font-family: 'Montserrat' , sans-serif;
     font-size: 24px;
@@ -102,9 +105,16 @@ header{
 }
 
 /* cards */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .card{
     /* display: flex; */
     max-width: 45vw;
+    margin: 15px 10px;
 }
 .disabled{
     /* display:none; */
@@ -113,15 +123,28 @@ header{
 max-height: 45vh;
 width: 100%;
 }
+
 .hotel-img{
+border: #F18721 2px solid;
 
 }
 .info-wrapper{
     display: flex;
     justify-content: space-between;
+    background-color: #11498A;
+    color: white;
+    padding: 0 10px;
+    flex-wrap: wrap;
 }
 .guests-price{
     display: flex;
     gap: 20px;
     align-items: center ;
+    
 }
+
+/* TO DO
+make footer
+make responsive
+design modal */
+
