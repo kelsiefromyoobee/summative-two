@@ -235,6 +235,9 @@ flex: 1;
     height: 100%;
     width: 100%;
 }
+#panel{
+    display: none;
+}
 /* TO DO
 make footer
 make responsive*/
