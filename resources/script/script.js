@@ -40,8 +40,15 @@ else
     document.getElementById('house').classList.add('disabled')
 }
 
+let more_info_btns = document.getElementsByClassName('more-info-btn')
+for (i=0; i<more_info_btns.length; i++) 
+    more_info_btns[i].onclick=function(){
+        window.location= '../../other.html'
+    }
+
+
 //TO DO
 // add on click modal
 // food database
-//style the more info button
+
 

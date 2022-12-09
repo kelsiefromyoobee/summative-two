@@ -11,6 +11,10 @@ h2{
     font-size: 20px;
     font-weight: 600;
 }
+h3{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+}
 p{
     font-family: 'Montserrat' , sans-serif;
     font-size: 16px;
@@ -109,24 +113,28 @@ header{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 .card{
     /* display: flex; */
     max-width: 45vw;
     margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
 }
 .disabled{
     /* display:none; */
 }
 .hotel-img img{
-max-height: 45vh;
+/* max-height: 45vh; */
+height: 100%;
 width: 100%;
+object-fit: cover;
 }
 
 .hotel-img{
 border: #F18721 2px solid;
-
+flex: 1;
 }
 .info-wrapper{
     display: flex;
@@ -142,9 +150,92 @@ border: #F18721 2px solid;
     align-items: center ;
     
 }
+.more-info-btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat';
+}
+.more-info-btn{
+    background-color: #F18721;
+    padding: 5px;
+    margin: 10px;
+}
+ /*MODAL DESIGN*/
 
+.image-txt{
+    display: flex;
+    margin:15px;
+    justify-content: space-between;
+}
+.main-img{
+    max-height: 50vh;
+    max-width: 50vw;
+    border: #F18721 2px solid;
+}
+.main-img img{
+    height: 100%;
+    width: 100%;
+}
+.modal-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-heading h2{
+    margin: 0;
+}
+.close-btn{
+    background-color: #F18721;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.close-btn h1{
+    margin: 0;
+}
+
+.long-desc{
+    max-width: 45vw;
+}
+.long-desc p{
+    margin: 5px;
+}
+.static-gallery{
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.extra-wrapper{
+   margin: 10px;
+   border: #F18721 2px solid;
+   
+}
+.extra-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu-items{
+    text-align: center;
+}
+
+.meal-options{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.meals{
+    display: flex;
+    align-items: center;
+}
+.meal-img{
+    max-width: 30vw;
+}
+.meal-img img{
+    height: 100%;
+    width: 100%;
+}
 /* TO DO
 make footer
-make responsive
-design modal */
+make responsive*/
 
