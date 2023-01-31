@@ -46,10 +46,7 @@ for (i=0; i<more_info_btns.length; i++)
         window.location= '../../other.html'
     }
 
-//code from codepen
-$("#slide").click(function(){
-    $("#panel").slideToggle("slow");
-  });
+
 
 
 

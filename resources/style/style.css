@@ -122,8 +122,8 @@ header{
     display: flex;
     flex-direction: column;
 }
-.disabled{
-    /* display:none; */
+.no-display{
+    display: none;
 }
 .hotel-img img{
 /* max-height: 45vh; */
@@ -235,8 +235,14 @@ flex: 1;
     height: 100%;
     width: 100%;
 }
-#panel{
+
+@media only screen and (max-width: 800px){
+.para{
     display: none;
+}
+.txt-wrapper{
+    width: 60%;
+}
 }
 /* TO DO
 make footer
