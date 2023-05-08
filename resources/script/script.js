@@ -11,6 +11,16 @@ console.log( user_input_for_people );
 
 let check_in_input = $('#check-in')[0].value;
 let check_out_input = $('#check-out')[0].value;
+//hamburger menu
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener ("click", () =>{
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+
 
 // datecalculator.js
 let difference = calculate_day_difference(check_in_input , check_out_input)
