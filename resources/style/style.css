@@ -318,3 +318,11 @@ flex: 1;
     text-align: center;
     transition: 0.3s;
 }
+
+.nav-item{
+    margin: 16px, 0;
+}
+
+.nav-menu.active{
+    left: 0;
+}
