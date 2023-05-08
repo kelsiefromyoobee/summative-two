@@ -311,4 +311,5 @@ flex: 1;
 .nav-menu{
     position: fixed;
     left: -100%;
+    top: 70px;
 }
