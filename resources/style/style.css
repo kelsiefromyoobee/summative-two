@@ -307,3 +307,8 @@ flex: 1;
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+.nav-menu{
+    position: fixed;
+    
+}
