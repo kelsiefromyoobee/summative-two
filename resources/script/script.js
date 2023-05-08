@@ -10,7 +10,7 @@ let user_input_for_people = $('#guest-input')[0].value;
 console.log( user_input_for_people );
 
 let check_in_input = $('#check-in')[0].value;
-let check_out_input = $('#check-out')[0].value
+let check_out_input = $('#check-out')[0].value;
 
 // datecalculator.js
 let difference = calculate_day_difference(check_in_input , check_out_input)

@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 h1{
     font-family: 'Montserrat' , sans-serif;
@@ -22,6 +24,15 @@ p{
     font-weight: 600;
     
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 label{
     font-family: 'Montserrat' , sans-serif;
     font-size: 16px;
@@ -48,15 +59,60 @@ select{
 }
 
 header{
-    padding-right: 10px;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     font-family: 'Montserrat' , sans-serif;
+}
+.header{
+    border-bottom: 1px solid #11498A;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0, 24px;
 }
 .img-wrapper img{
     max-width: 250px;    
 }
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #11498A;
+    color: #fdfcf3cb;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 24px;
+    font-weight: 400;
+    color: #11498A;
+}
+
+.nav-link:hover{
+    color: #F18721;
+}
+
+
 
 #landing-input{
     background-image: url('../images/landing-img.jpg');
@@ -236,15 +292,18 @@ flex: 1;
     width: 100%;
 }
 
-@media only screen and (max-width: 800px){
-.para{
-    display: none;
-}
-.txt-wrapper{
-    width: 60%;
-}
-}
-/* TO DO
-make footer
-make responsive*/
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+    }
 
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
