@@ -59,11 +59,12 @@ select{
 }
 
 header{
-    align-items: center;
+    
     font-family: 'Montserrat' , sans-serif;
 }
 .header{
     border-bottom: 1px solid #11498A;
+    z-index: 1000;
 }
 
 .navbar {
@@ -306,7 +307,7 @@ flex: 1;
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
-}
+
 
 .nav-menu{
     position: fixed;
@@ -325,4 +326,17 @@ flex: 1;
 
 .nav-menu.active{
     left: 0;
+}
+h1{
+    font-size: 20px;
+}
+
+.txt-wrapper{
+    width: 100%;
+    left: 0;
+}
+.navbar{
+    margin: 10px;
+
+}
 }
